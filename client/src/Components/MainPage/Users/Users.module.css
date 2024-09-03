@@ -1,0 +1,19 @@
+.usersWrapper {
+    width: 100%;
+    min-width: 270px;
+    color: var(--color-dark);
+    padding-inline: var(--padding-inline);
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.1em;
+}
+
+.usersTotalCount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
