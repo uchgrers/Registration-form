@@ -1,7 +1,7 @@
 import {configureStore} from '@reduxjs/toolkit'
 import {authReducer} from "./authReducer";
 import {thunk as thunkMiddleware} from 'redux-thunk';
-import {usersReducer} from "./usersReducers";
+import {usersReducer} from "./usersReducer";
 
 const reducers = {
     authReducer,

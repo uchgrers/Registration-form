@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {Navigate} from "react-router-dom";
 import Header from "../Header/Header";
 import s from './Home.module.css';
-import {getUsersFromServer} from "../../../store/usersReducers";
+import {getUsersFromServer} from "../../../store/usersReducer";
 import Users from "../Users/Users";
 import {selectPageParams} from "../../../common/selectors/homePageSelector";
 
